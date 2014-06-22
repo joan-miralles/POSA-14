@@ -63,7 +63,7 @@ public class DownloadIntentService extends IntentService {
     	// factory method in DownloadUtils that makes a Messenger
     	// Intent with the appropriate parameters.
 
-        return null;
+        return DownloadUtils.makeMessengerIntent(context, DownloadIntentService.class, handler, uri);
     }
 
     /**
