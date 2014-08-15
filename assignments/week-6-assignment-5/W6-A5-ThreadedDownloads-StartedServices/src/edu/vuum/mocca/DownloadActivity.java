@@ -119,7 +119,7 @@ public class DownloadActivity extends DownloadBase {
             startService(ThreadPoolDownloadService.makeIntent(this, handler, this.getUrlString()));
             which = "Starting ThreadPoolDownloadService";
             break;
-        
+       
         }
 
     	// Display a short pop-up notification telling the user which
